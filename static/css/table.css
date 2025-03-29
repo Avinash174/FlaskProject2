@@ -1,0 +1,23 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 2px solid red; /* Red border for the entire table */
+}
+
+th, td {
+    border: 2px solid red; /* Red border around each cell */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Remove background color changes */
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even),
+tr:hover {
+    background-color: transparent; /* No background color */
+}
